@@ -1,3 +1,38 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.menu-items {
+  font-size: 50px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.logo {
+    width: 200px;
+    
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+#album {
+  width: 600px;
+  padding-left: 4%;
+}
+
+#album img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
