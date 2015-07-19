@@ -14,8 +14,7 @@
 }
 
 .logo {
-    width: 200px;
-    
+    width: 200px;   
 }
 
 .logo img {
@@ -25,12 +24,35 @@
 
 #album {
   width: 600px;
-  padding-left: 4%;
+  margin-left: 8%;
 }
 
 #album img {
   width: 100%;
   height: auto;
+}
+
+.jumbotron {
+  width: 65%;
+}
+
+.dancer {
+  width: 300px;
+}
+
+.dancer img {
+  width: 100%;
+}
+
+.discohead {
+  margin-left: -300px;
+  width: 300px;
+}
+
+.discohead img {
+  width: 100%;
+  margin-top: 360px;
+
 }
 
 ul {
