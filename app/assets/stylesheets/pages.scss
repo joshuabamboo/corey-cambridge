@@ -8,6 +8,10 @@
   padding-top: 10px;
 }
 
+.main-display {
+  padding-top: 30px;
+}
+
 .social-icons {
   // position: absolute;
   // left: 750px;
@@ -74,13 +78,26 @@
 .links div{
   display: inline-block;
   margin-right: 10px;
-  font-size: 40px;
-  padding-top: 30px;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 
-a:link, a:hover,a:visited { color: #000000; }
+a:link, a:visited { color: #000000; }
 
+a:hover { color: #C0392B !important; }
+
+.link-group div{
+  display: block;
+}
+
+.link-img img{
+  height: 120px;
+}
+
+.link-1 {
+  margin-top: -20px;
+}
 // .menu-items {
 //   font-size: 50px;
 //   display: inline-block;

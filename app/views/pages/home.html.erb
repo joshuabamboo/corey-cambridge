@@ -2,11 +2,32 @@
   <div class="logo col-xs-3"><a href="<%= root_path %>"><%= image_tag 'corey-logo.png' %></a></div>
   <div class='col-xs-9'>
     <div class='links col-xs-12'>
-      <div class='link-1 col-xs-2'><a href="#">About</a></div>
-      <div class='link-2 col-xs-2'><a href="#">Music</a></div>
-      <div class='link-3 col-xs-2'><a href="#">Videos</a></div>
-      <div class='link-5 col-xs-2'><a href="#">Contact</a></div>
-      <div class='link-4 col-xs-2'><a href="#">Yo</a></div>
+
+      <div class='link-group col-xs-2'>
+        <div class='link-img'><%= image_tag "Santa.png" %></div>
+        <div class='link-1'><a href="#">About</a></div>
+      </div>
+
+      <div class='link-group col-xs-2'>
+        <div class='link-img'><%= image_tag "BrownBag.png" %></div>
+        <div class='link-1'><a href="#">Music</a></div>
+      </div>
+
+      <div class='link-group col-xs-2'>
+        <div class='link-img'><%= image_tag "smokebreak.png" %></div>
+        <div class='link-1'><a href="#">Videos</a></div>
+      </div>
+      
+      <div class='link-group col-xs-2'>
+        <div class='link-img'><%= image_tag "discohead.png" %></div>
+        <div class='link-1'><a href="#">Contact</a></div>
+      </div>
+
+      <div class='link-group col-xs-2'>
+        <div class='link-img'><%= image_tag "dancer.png" %></div>
+        <div class='link-1'><a href="#">Yo</a></div>
+      </div>
+      
     </div>
   </div>
 </div>
@@ -14,7 +35,7 @@
 <div>
   <div class='col-xs-5'></div>
   <div class='col-xs-5'>  
-    <div>
+    <div class='main-display'>
       <!-- <div class="embed-responsive embed-responsive-16by9 div_style">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PGjzvYxfJN0?rel=0&amp;showinfo=0" allowfullscreen></iframe>
       </div> -->
