@@ -22,12 +22,15 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-html {
+body {
   background: url("bg.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  // background-image: url('bg.png');
+  // background-repeat: no-repeat;
+  // min-height:100%;
 }
 
 footer {
