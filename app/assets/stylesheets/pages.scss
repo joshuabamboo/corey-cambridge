@@ -12,12 +12,6 @@
   padding-top: 30px;
 }
 
-.social-icons {
-  // position: absolute;
-  // left: 750px;
-  // top: 700px;
-}
-
 .icon-size {
   height: 64px;
   width: 64px;
@@ -66,10 +60,10 @@
 }
 
 @media all and ( min-width: 560px ) {
-    .div_style { 
-        width:560px;
-        padding-bottom:315px !important;
-    }
+  .div_style { 
+      width:560px;
+      padding-bottom:315px !important;
+  }
 }
 
 .links div{
@@ -95,58 +89,3 @@ a:hover { color: #C0392B !important; }
 .link-1 {
   margin-top: -15px;
 }
-// .menu-items {
-//   font-size: 50px;
-//   display: inline-block;
-//   margin: 20px;
-// }
-
-// .inline {
-//   display: inline-block;
-// }
-
-// .logo {
-//     width: 200px;   
-// }
-
-// .logo img {
-//   width: 100%;
-//   height: auto;
-// }
-
-// #album {
-//   width: 600px;
-//   margin-left: 8%;
-// }
-
-// #album img {
-//   width: 100%;
-//   height: auto;
-// }
-
-// .jumbotron {
-//   width: 65%;
-// }
-
-// .dancer {
-//   width: 300px;
-// }
-
-// .dancer img {
-//   width: 100%;
-// }
-
-// .discohead {
-//   margin-left: -300px;
-//   width: 300px;
-// }
-
-// .discohead img {
-//   width: 100%;
-//   margin-top: 360px;
-
-// }
-
-// ul {
-//   list-style-type: none;
-// }
