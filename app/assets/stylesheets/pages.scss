@@ -2,59 +2,137 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-.menu-items {
-  font-size: 50px;
-  display: inline-block;
-  margin: 20px;
-}
-
-.inline {
-  display: inline-block;
-}
-
-.logo {
-    width: 200px;   
-}
-
-.logo img {
-  width: 100%;
+.logo img{
+  width: 250px;
   height: auto;
+  padding-top: 10px;
 }
 
-#album {
-  width: 600px;
-  margin-left: 8%;
+.social-icons {
+  // position: absolute;
+  // left: 750px;
+  // top: 700px;
 }
 
-#album img {
-  width: 100%;
-  height: auto;
+.icon-size {
+  height: 64px;
+  width: 64px;
+  margin-left: 10px;
+  display: inline-block;
 }
 
-.jumbotron {
-  width: 65%;
+.fb {
+  background-image: url('fb.png');
 }
 
-.dancer {
-  width: 300px;
+.fb:hover {
+  background-image: url('fb-red.png');
 }
 
-.dancer img {
-  width: 100%;
+.twitter {
+  background-image: url('twitter.png');
 }
 
-.discohead {
-  margin-left: -300px;
-  width: 300px;
+.twitter:hover {
+  background-image: url('twitter-red.png');
 }
 
-.discohead img {
-  width: 100%;
-  margin-top: 360px;
-
+.ig {
+  background-image: url('ig.png');
 }
 
-ul {
-  list-style-type: none;
+.ig:hover {
+  background-image: url('ig-red.png');
 }
+
+.spotify {
+  background-image: url('spotify.png');
+}
+
+.spotify:hover {
+  background-image: url('spotify-red.png');
+}
+
+.soundcloud {
+  background-image: url('soundcloud7.png');
+}
+
+.soundcloud:hover {
+  background-image: url('soundcloud-red.png');
+}
+
+@media all and ( min-width: 560px ) {
+    .div_style { 
+        width:560px;
+        padding-bottom:315px !important;
+        // position: absolute;
+        // left: 700px;
+        // top: 150px;
+    }
+}
+
+.links div{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+
+a:link, a:hover,a:visited { color: #000000; }
+
+// .menu-items {
+//   font-size: 50px;
+//   display: inline-block;
+//   margin: 20px;
+// }
+
+// .inline {
+//   display: inline-block;
+// }
+
+// .logo {
+//     width: 200px;   
+// }
+
+// .logo img {
+//   width: 100%;
+//   height: auto;
+// }
+
+// #album {
+//   width: 600px;
+//   margin-left: 8%;
+// }
+
+// #album img {
+//   width: 100%;
+//   height: auto;
+// }
+
+// .jumbotron {
+//   width: 65%;
+// }
+
+// .dancer {
+//   width: 300px;
+// }
+
+// .dancer img {
+//   width: 100%;
+// }
+
+// .discohead {
+//   margin-left: -300px;
+//   width: 300px;
+// }
+
+// .discohead img {
+//   width: 100%;
+//   margin-top: 360px;
+
+// }
+
+// ul {
+//   list-style-type: none;
+// }

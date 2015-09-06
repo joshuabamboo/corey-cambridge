@@ -1,36 +1,45 @@
-<div class="my-container">
-    <h1>Corey Cambridge</h1>
-    <%= image_tag "Santa.png" %>
+<div class='col-xs-12'>
+  <div class="logo col-xs-3"><a href="<%= root_path %>"><%= image_tag 'corey-logo.png' %></a></div>
+  <div class='col-xs-9'>
+    <div class='links col-xs-12'>
+      <div class='link-1 col-xs-2'><a href="#">About</a></div>
+      <div class='link-2 col-xs-2'><a href="#">Music</a></div>
+      <div class='link-3 col-xs-2'><a href="#">Videos</a></div>
+      <div class='link-5 col-xs-2'><a href="#">Contact</a></div>
+      <div class='link-4 col-xs-2'><a href="#">Yo</a></div>
+    </div>
+  </div>
 </div>
 
-<div class="main">
-
-  
-
-  <div class="inline logo"><%= image_tag "Santa.png" %></div>
-  <nav class="inline">
+<div>
+  <div class='col-xs-5'></div>
+  <div class='col-xs-5'>  
     <div>
-      <ul>
-        <li id="menu-1" class="menu-items"><a href="#">Home</a></li>
-        <li id="menu-2" class="menu-items"><a href="#">Music</a></li>
-        <li id="menu-3" class="menu-items"><a href="#">About</a></li>
-        <li id="menu-4" class="menu-items"><a href="#">Contact</a></li>
-      </ul>
+      <!-- <div class="embed-responsive embed-responsive-16by9 div_style">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PGjzvYxfJN0?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+      </div> -->
+
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51362197&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
     </div>
-  </nav>
-  <br>
-
-  <div class="inline discohead">
-    <%= image_tag "discohead.png" %>
-  </div>
-
-  <div class="jumbotron inline" style="background-color: #000029;" >
-    <div id="album">
-      <%= image_tag "album.jpg" %>
-    </div>
-  </div>
-
-  <div class="inline dancer">
-    <%= image_tag "dancer.png" %>
   </div>
 </div>
+
+<footer>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/CoreyCambridge" target="_blank">
+        <div class="icon-size fb"></div>
+      </a>
+      <a href="https://twitter.com/coreycambridge" target="_blank">
+        <div class="icon-size twitter"></div>
+      </a>
+      <a href="https://instagram.com/coreycambridge" target="_blank">
+        <div class="icon-size ig"></div>
+      </a>
+      <a href="https://open.spotify.com/artist/1fuLa13rm069l1Uw5fDW34" target="_blank">
+        <div class="icon-size spotify"></div>
+      </a>
+      <a href="https://soundcloud.com/coreycambridge" target="_blank">
+        <div class="icon-size soundcloud"></div>
+      </a>
+    </div>
+</footer>
