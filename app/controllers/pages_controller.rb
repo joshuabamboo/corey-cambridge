@@ -2,7 +2,6 @@ class PagesController < ApplicationController
   def home
   end
 
-  def alt
-    
+  def videos
   end
 end
