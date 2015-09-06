@@ -69,9 +69,6 @@
     .div_style { 
         width:560px;
         padding-bottom:315px !important;
-        // position: absolute;
-        // left: 700px;
-        // top: 150px;
     }
 }
 
@@ -83,7 +80,7 @@
 }
 
 
-a:link, a:visited { color: #000000; }
+a:link, a:visited { color: #000000 !important; }
 
 a:hover { color: #C0392B !important; }
 
@@ -96,7 +93,7 @@ a:hover { color: #C0392B !important; }
 }
 
 .link-1 {
-  margin-top: -20px;
+  margin-top: -15px;
 }
 // .menu-items {
 //   font-size: 50px;
