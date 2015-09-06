@@ -20,7 +20,14 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background: url("bg.png") top center no-repeat;
+}
+
+html {
+  background: url("bg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 footer {
