@@ -1,3 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "font-awesome";
+@import "font-awesome.css";
+
+// Plugins
+@import 'simpletextrotator.css';
+@import 'et-line-font.css';
+@import 'magnific-popup.css';
+@import 'flexslider.css';
+@import 'animate.css';
+
+// Template core CSS
+@import 'style.css';
+
+// Custom css
+@import 'custom.css';
