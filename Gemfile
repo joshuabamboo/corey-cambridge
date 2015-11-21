@@ -47,3 +47,4 @@ end
 # Make me pretty
 # gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.5'
+gem 'font-awesome-rails'
