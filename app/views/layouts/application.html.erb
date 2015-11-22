@@ -9,7 +9,6 @@
   <title>Corey Cambridge</title>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -33,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Semantic</a>
+          <a class="navbar-brand" href="index.html"></a>
         </div>
     
         <div class="collapse navbar-collapse" id="custom-collapse">
@@ -204,16 +203,16 @@
     <div class="hs-caption container">
       <div class="caption-content">
         <div class="hs-title-size-4 font-alt m-b-30">
-          We are Semantic
+          Corey Cambridge
         </div>
         <div class="hs-title-size-1 font-inc">
-          A wonderful serenity has taken possession of my entire soul, like these<br/> sweet mornings of spring which I enjoy with my whole heart
+          I'm too sexy for my shirt
         </div>
       </div>
     </div>
 
     <!-- Youtube player start-->
-    <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=UPAr2cSUcFw', containment:'.module-hero', startAt:0, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+    <div class="video-player" data-property="{videoURL:'https://youtu.be/52nSdrEJDWM', containment:'.module-hero', startAt:91, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
     <!-- Youtube player end -->
 
     <!-- Youtube controls start-->
@@ -440,58 +439,6 @@
     </section>
     <!-- /ABOUT -->
 
-    <!-- CONTACT -->
-    <section class="module-small">
-    
-      <div class="container">
-    
-        <div class="row">
-    
-          <!-- CONTENT BOX -->
-          <div class="col-sm-4">
-            <div class="content-box">
-              <div class="content-box-icon">
-                <span class="icon-map-pin"></span>
-              </div>
-              <div class="content-box-title font-inc">
-                007 Steet, City, USA
-              </div>
-            </div>
-          </div>
-          <!-- /CONTENT BOX -->
-    
-          <!-- CONTENT BOX -->
-          <div class="col-sm-4">
-            <div class="content-box">
-              <div class="content-box-icon">
-                <span class="icon-phone"></span>
-              </div>
-              <div class="content-box-title font-inc">
-                +1 234 567 89 00
-              </div>
-            </div>
-          </div>
-          <!-- /CONTENT BOX -->
-    
-          <!-- CONTENT BOX -->
-          <div class="col-sm-4">
-            <div class="content-box">
-              <div class="content-box-icon">
-                <span class="icon-envelope"></span>
-              </div>
-              <div class="content-box-title font-inc">
-                semantic@email.com
-              </div>
-            </div>
-          </div>
-          <!-- /CONTENT BOX -->
-    
-        </div>
-    
-      </div>
-    
-    </section>
-    <!-- /CONTACT -->
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -518,5 +465,8 @@
   <div class="scroll-up">
     <a href="#totop"><i class="fa fa-angle-double-up"></i></a>
   </div>
+  <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
 </body>
 </html>

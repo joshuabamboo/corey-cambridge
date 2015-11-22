@@ -11,10 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= bootstrap-sprockets
+//= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
-//= require jquery-2.1.3.min
 //= require jquery.mb.YTPlayer.min
 //= require appear
 //= require jquery.simple-text-rotator.min
@@ -23,7 +22,7 @@
 //= require isotope.pkgd.min
 //= require imagesloaded.pkgd
 //= require jquery.flexslider-min
-//= reqsuire jquery.magnific-popup.min
+//= require jquery.magnific-popup.min
 //= require jquery.fitvids
 //= require smoothscroll
 //= require wow.min
