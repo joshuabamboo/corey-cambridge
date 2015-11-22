@@ -12,7 +12,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%#= yield %>
+  
 
   <!-- PRELOADER -->
   <div class="page-loader">
@@ -52,11 +52,11 @@
               </ul>
             </li>
     
-            <li><a href="#">Contact</a></li>
-            <li><a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/CoreyCambridge"></a></li>
-            <li><a class="fa fa-twitter" target="_blank" href="https://twitter.com/coreycambridge"></a></li>
-            <li><a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/coreycambridge/"></a></li>
-            <li><a class="fa fa-soundcloud" target="_blank" href="https://soundcloud.com/coreycambridge"></a></li>
+            <li><%= mail_to 'mclemoremusic@gmail.com', 'Contact', target: '_blank' %></li>
+            <li><a class="fa fa-facebook" target="_blank"href="https://www.facebook.com/CoreyCambridge"></a></li>
+            <li><a class="fa fa-twitter" target="_blank"href="https://twitter.com/coreycambridge"></a></li>
+            <li><a class="fa fa-instagram" target="_blank"href="https://www.instagram.com/coreycambridge/"></a></li>
+            <li><a class="fa fa-soundcloud" target="_blank"href="https://soundcloud.com/coreycambridge"></a></li>
           </ul>
         </div>
     
@@ -65,73 +65,9 @@
   </nav>
   <!-- /NAVIGATION -->
 
-  <!-- HOME -->
-  <section id="home" class="module-hero module-parallax module-fade module-full-height bg-dark-30" data-background="assets/images/section-10.jpg">
+  <%= yield %>
 
-    <div class="hs-caption container">
-      <div class="caption-content">
-        <div class="hs-title-size-4 font-alt m-b-30">
-          Corey Cambridge
-        </div>
-        <div class="hs-title-size-1 font-inc">
-          I'm too sexy for my shirt
-        </div>
-      </div>
-    </div>
-
-    <!-- Youtube player start-->
-    <div class="video-player" data-property="{videoURL:'https://youtu.be/52nSdrEJDWM', containment:'.module-hero', startAt:91, stopAt:168, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
-    <!-- Youtube player end -->
-
-    <!-- Youtube controls start-->
-    <div class="video-controls-box">
-      <div class="container">
-        <div class="video-controls">
-          <a id="video-volume" class="fa fa-volume-up" href="#">&nbsp;</a>
-          <a id="video-play" class="fa fa-pause" href="#">&nbsp;</a>
-        </div>
-      </div>
-    </div>
-    <!-- Youtube controls end -->
-
-  </section >
-  <!-- /HOME -->
-
-  <!-- WRAPPER -->
   <div class="wrapper">
-    <!-- SOUNDCLOUD -->
-    <div class="col-sm-12 col-md-6 col-md-offset-3 col-bg">
-      <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51362197&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-    </div>
-
-    <!-- ABOUT -->
-    <section class="module p-t-0 p-b-0" data-background="">
-
-      <div class="container-fluid">
-
-        <div class="row relative">
-
-          <div class="col-sm-12 col-md-6 col-md-offset-6 col-bg">
-
-            <h2 class="module-title font-alt">About</h2>
-
-            <div class="module-subtitle font-inc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            </div>
-
-            <p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
-
-            <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- /ABOUT -->
-
-
     <!-- FOOTER -->
     <footer class="footer">
     
