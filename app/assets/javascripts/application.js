@@ -13,7 +13,6 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
-//= require turbolinks
 //= require jquery.mb.YTPlayer.min
 //= require appear
 //= require jquery.simple-text-rotator.min
