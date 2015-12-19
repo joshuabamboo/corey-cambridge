@@ -1,6 +1,4 @@
 class PagesController < ApplicationController
-  after_filter :allow_iframe
-
   def home
   end
 
@@ -8,10 +6,5 @@ class PagesController < ApplicationController
   end
 
   def music
-  end
-
-  private
-  def allow_iframe
-    response.header.delete "X-Frame-Options"
   end
 end
